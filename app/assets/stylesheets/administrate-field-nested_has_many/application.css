@@ -1,3 +1,15 @@
-/*
- *= require_tree .
- */
+.field-unit--nested-has-many .nested-fields {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.field-unit--nested-has-many .nested-fields::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.field-unit--nested-has-many .remove_fields,
+.field-unit--nested-has-many .add_fields {
+  float: right;
+}
